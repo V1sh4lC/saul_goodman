@@ -1,0 +1,24 @@
+
+body {
+    background-image: url(https://i.scdn.co/image/ab67706c0000bebba3cc060a67f60bdc33893ef4);
+    background-size: 10%;
+}
+
+@media screen and (max-width:600px) {
+    body video {
+        display: block;
+        margin-top: 35vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:601px) {
+    body video {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    } 
+}
