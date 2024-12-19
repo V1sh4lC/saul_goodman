@@ -2,8 +2,15 @@
 body {
     background-image: url(https://i.scdn.co/image/ab67706c0000bebba3cc060a67f60bdc33893ef4);
     background-size: 10%;
+    height: 100vh;
+    /* border: 1px solid yellow; */
+    /* width: 100%; */
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 @media screen and (max-width:600px) {
     body video {
         display: block;
@@ -21,4 +28,8 @@ body {
         margin-right: auto;
         width: 75%;
     } 
+}
+
+#videoPlayer {
+    visibility: hidden;
 }
